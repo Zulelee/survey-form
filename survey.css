@@ -1,0 +1,101 @@
+body{
+  background: url("https://wallpaperaccess.com/full/52448.jpg");
+  background-color:#575757;
+  background-blend-mode: lighten;
+  background-size: 100%;    
+  background-attachment: fixed;
+
+}
+
+#main{  
+  font-family: Cambira, sans-serif;
+}
+#start{
+  color:white;
+  text-align:center;
+}
+
+h1{
+  font-size:50px; 
+}
+
+#description{
+  font-size:24px;
+}
+
+#survey-form{
+  background: rgba(78, 77, 81,0.9);
+  background-opacity:;
+  color:white;
+  padding:25px;
+  width: auto;
+  height:auto;
+  margin:auto;
+  max-width:70%;
+  border-radius: 10px;
+  display:flex;
+  flex-direction:column;
+  font-size:17px;
+}
+
+#name, #email, #number, #role{
+  height:35px;
+  width:100%;
+  border-radius: 4px;
+  padding-left:5px;
+  margin-top:-10px;
+  border:none;
+}
+
+
+#suggestions{positon:relative;
+  height:100px;
+  width:100%;
+  top:20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border:none;
+}
+
+#recomm{
+  display: flex;
+  flex-direction: column;
+}
+
+#recommend-label2, #recommend-label3{
+  margin-top:10px;
+}
+
+
+#checkbox-part{
+  display:flex;
+  flex-direction:column;
+  margin-top:20px;
+}
+
+#check1, #check2, #check3, #check4, #check5{
+  margin-top:10px;
+}
+
+#suggestions-label{
+  display:flex;
+  margin-top:20px;
+  flex-direction: column;
+}
+
+#submit{
+  position:relative;
+  width:100%;
+  margin:auto;
+  font-size:20px;
+  padding:6px;
+  margin-top:20px;
+  border-radius:5px;
+  background: grey;
+  color:white;
+}
+
+#submit:hover{
+  background: #6939F0;
+  cursor: pointer;
+}
